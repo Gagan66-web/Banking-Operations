@@ -69,7 +69,6 @@ int main() {
   float fdInterest;
   double homeLoanEMI;
   while (1) {
-    printf("SRN:PES1UG23ME018");
     printf("\nChoose The Following Banking Operation:\n");
     printf("1. Interest Calculation of a Savings Account\n");
     printf("2. Calculation of Interest and Maturity amount of FD account\n");
