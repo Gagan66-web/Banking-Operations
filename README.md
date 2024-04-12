@@ -1,24 +1,56 @@
-# Banking-Operations
-Menu Driven program to implement the following banking operations of a  Bank for a person having a savings bank account, FD account and having taken a Home loan.
-#simple Control Structures C program:
-The Banking Operations are:
-  a) Interest Calculation of a Savings Account.
-  b) Calculation of Interest and Maturity amount of FD account.
-  c) Home Loan EMI Calculation.
+# Banking Operations Program
 
-This can be run on your command shell or any other C supoorted IDE.
-Remember to install gcc compiler to compile the code.
-After setting up everything u can easily use the source code to implement the above Banking Operations.
-The Outputs Are:
+This is a menu-driven C program that allows users to perform various banking operations including deposit, balance check, withdrawal, interest calculation for a savings account, calculation of interest and maturity amount for a fixed deposit (FD) account, and calculation of Equated Monthly Installment (EMI) for a home loan.
 
+## Operations
 
-![image](https://github.com/Gagan66-web/Banking-Operations/assets/85872916/38fe1397-d467-4899-8a13-d9969a46d6d3)
+1. **Deposit**
+    - Allows the user to deposit funds into their savings account.
 
+2. **Balance Check**
+    - Displays the current balance in the savings account.
 
-![image](https://github.com/Gagan66-web/Banking-Operations/assets/85872916/3df97891-32e8-420b-be7e-5dd3a1c47afc)
+3. **Withdrawal**
+    - Allows the user to withdraw funds from their savings account, provided the balance is sufficient.
 
+4. **Interest Calculation for Savings Account**
+    - Calculates the interest for a given balance in a savings account.
 
-![image](https://github.com/Gagan66-web/Banking-Operations/assets/85872916/65106c01-905f-4722-ab58-d5121b6f7244)
+5. **Interest and Maturity Amount Calculation for FD Account**
+    - Calculates both the interest and maturity amount for a fixed deposit account given the principal, interest rate, and time period.
 
+6. **Home Loan EMI Calculation**
+    - Calculates the EMI for a home loan given the principal, interest rate, and time period.
 
-![image](https://github.com/Gagan66-web/Banking-Operations/assets/85872916/6cad639a-b1ac-4937-bf79-7601e56198aa)
+## Usage
+
+1. **Compile the Program:**
+   - Before running the program, make sure you have a C compiler installed (e.g., GCC).
+   - Use the following command to compile the program:
+     ```
+     gcc banking_operations.c -o banking_operations
+     ```
+
+2. **Run the Program:**
+   - Execute the compiled program by running the following command:
+     ```
+     ./banking_operations
+     ```
+
+3. **Follow the Prompts:**
+   - Upon running the program, you will be presented with a menu.
+   - Choose the desired banking operation by entering the corresponding number.
+   - Follow the prompts to perform the chosen operation, such as deposit amount, withdrawal amount, etc.
+
+4. **View Outputs:**
+   - The program will perform the chosen operation and display the result, such as current balance, interest amount, maturity amount, or EMI.
+
+## Requirements
+
+- C compiler (e.g., GCC)
+
+## Compatibility
+
+- This program can be run on any system with a C compiler installed.
+- It can be executed on the command shell or any C-supported IDE.
+
