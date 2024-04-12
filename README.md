@@ -22,13 +22,21 @@ This is a menu-driven C program that allows users to perform various banking ope
 6. **Home Loan EMI Calculation**
     - Calculates the EMI for a home loan given the principal, interest rate, and time period.
 
+## Implementation Details
+
+- The program is implemented using header files, client file, function files, and a Makefile.
+- The header files contain function declarations.
+- The function files contain the implementation of the banking operations.
+- The client file contains the main function and the menu-driven logic.
+- The Makefile is used for compiling and building the program.
+
 ## Usage
 
 1. **Compile the Program:**
    - Before running the program, make sure you have a C compiler installed (e.g., GCC).
-   - Use the following command to compile the program:
+   - Use the following command to compile the program using the Makefile:
      ```
-     gcc banking_operations.c -o banking_operations
+     make
      ```
 
 2. **Run the Program:**
